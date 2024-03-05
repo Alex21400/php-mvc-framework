@@ -1,0 +1,20 @@
+{
+    "name": "saki9/mvc-laracasts",
+    "require": {
+        "illuminate/collections": "^10.35"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Htpp/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.28"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
